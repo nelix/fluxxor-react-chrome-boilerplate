@@ -1,0 +1,22 @@
+{
+  "name": "I am too lazy to edit my manifest.json",
+  "description": "I am too lazy to edit my manifest.json",
+  "version": "0.3",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+   "content_scripts": [
+    {
+      "matches": ["http://www.example.com/"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon-16.png"
+  }
+}

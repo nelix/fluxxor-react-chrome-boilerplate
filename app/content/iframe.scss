@@ -1,0 +1,26 @@
+img:hover {
+  transition: 0.15s opacity ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.List {
+  height: 100%;
+  border-radius: 0.25em;
+  box-shadow: 0 0 10px rgba(232, 74, 100, 0.4);
+  background: #fefefe;
+  border: #333 solid 1px;
+  li {
+    border-bottom: 1px solid #eff2f6;
+    padding: 5px 0 5px 25px;
+  }
+}

@@ -1,0 +1,20 @@
+@import "reset-mixin";
+
+.embed-reset {
+  @include hard-reset;
+}
+
+.embed-wrapper {
+  overflow: hidden;
+  position: fixed;
+
+  &.mode-list {
+    height: 100%;
+    width: 240px;
+  }
+  iframe {
+    @include hard-reset;
+    height: 100%;
+    width: 100%;
+  }
+}
